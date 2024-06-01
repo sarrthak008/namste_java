@@ -28,5 +28,21 @@ public class javaBasic{
 #### how run code 
 > javac file.name <br>
 > java file.name <br>
+<br>
 
+#### `println` print and give one line space <br>
+ 
+ ``\n also use for tarminate line``
 
+ ## variables in Java 
+ <hr>
+What is a variable?
+In programming, a variable is a value that can change, depending on conditions or on information passed to the program
+
+#### how define variable in java 
+```
+  int a = 10;
+  int b = 20;
+  String name = "sarthak";
+
+```
