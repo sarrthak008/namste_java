@@ -80,3 +80,15 @@ eg : java , c, c++
   > long : 8 byte <br>
   > float : 4 byte <br>
   > double : 8 byte <br>
+
+  #### comments in java 
+  
+  ```
+  //single line comment 
+  ```
+  <br>
+  ```
+  /*
+    multiline code...
+  */
+  ```
