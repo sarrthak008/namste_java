@@ -13,3 +13,20 @@ public class javaBasic{
 }
 
 ```
+
+##### statement tarminator in java -->  ; 
+
+### output in java 
+```
+ System.out.print("hello world !");
+
+```
+<br>
+> `S` is cpital in System <br>
+<hr>
+
+#### how run code 
+> javac file.name <br>
+> java file.name <br>
+
+
