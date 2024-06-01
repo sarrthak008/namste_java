@@ -82,13 +82,17 @@ eg : java , c, c++
   > double : 8 byte <br>
 
   #### comments in java 
-  
+
   ```
   //single line comment 
+
   ```
+
   <br>
+
   ```
   /*
-    multiline code...
+    multiline comment...
   */
+
   ```
