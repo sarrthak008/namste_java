@@ -96,3 +96,37 @@ eg : java , c, c++
   */
 
   ```
+
+  ### input in java :
+  <hr>
+
+  for input we make object of class 'Scanner'
+
+  ```
+
+    import java.util.*  // util package of java
+
+    Scanner sc = new Scanner(System.in); // create new object of class  scanner
+
+    String input = sc.next(); // sc.next() capture the input 
+
+    System.out.println(input);
+
+
+  ```
+
+  sc.next() caputure only one word
+
+  #### input in java :
+  > next()  -> take single word input <br>
+  > nextLine()  -> take line or pahragraph as input <br>
+  > nextInt()  -> take Number as a input <br>
+  > nextByte()  -> take byte as a input <br>
+  > nextFloat()  -> take Float value as a input <br>
+  > nextBoolean()  -> take Boolean value as a input  <br>
+  > nextShort()  -> take Short NUmber as a input <br>
+  > nextLong()  -> take Long number as a input<br>
+
+
+
+  
