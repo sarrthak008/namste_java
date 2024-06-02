@@ -169,6 +169,21 @@ System.out.print(b);
 o\p-> 97
 
 ```
+#### type Promotion in java 
+1] java automatically promotes byte,short,or char operands to int when evaluating an expression
 
+2] if one operand is long,float or double the whole expression promoted to long,float or double respectively
 
-  
+3] type pramotion work in expression.
+
+#### example 
+
+```java
+
+byte b = 5;
+byte   a = b*2; //tahts give error  there is experssoion first b convert into int 
+
+byte b = 5;
+byte  a = (byte)(b*2); // there is no error..
+
+````
