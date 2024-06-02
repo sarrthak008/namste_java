@@ -5,7 +5,7 @@
 #### java compiler search main function to run the code 
 
 ### boilerplate code in java 
-```
+```java
 public class javaBasic{
     public static void main(String[] args) {
         
@@ -17,7 +17,7 @@ public class javaBasic{
 ##### statement tarminator in java -->  ; 
 
 ### output in java 
-```
+```java
  System.out.print("hello world !");
 
 ```
@@ -40,7 +40,7 @@ What is a variable?
 In programming, a variable is a value that can change, depending on conditions or on information passed to the program
 
 #### how define variable in java 
-```
+```java
   int a = 10;
   int b = 20;
   String name = "sarthak";
@@ -102,7 +102,7 @@ eg : java , c, c++
 
   for input we make object of class 'Scanner'
 
-  ```
+  ```java
 
     import java.util.*  // util package of java
 
@@ -117,7 +117,8 @@ eg : java , c, c++
 
   sc.next() caputure only one word
 
-  #### input in java :
+  #### input in java :-
+  
   > next()  -> take single word input <br>
   > nextLine()  -> take line or pahragraph as input <br>
   > nextInt()  -> take Number as a input <br>
@@ -127,6 +128,47 @@ eg : java , c, c++
   > nextShort()  -> take Short NUmber as a input <br>
   > nextLong()  -> take Long number as a input<br>
 
+
+### type of conversion in java
+
+compatible conversion possible in java and
+and destination type > source conversion
+
+
+we convert int into float but cant convert int into boolean
+
+```diff
++>byte->short->int->float->long->double
+```
+also called implicit or widaning conversion
+
+#### type casting
+```java
+// float a= 25.12;
+// int b = a; 
+
+-give error..
+
+float a = 25.12;
+int b = (int) a;
+
+o\p-> 25
+
+```
+
+also norrowing conversion or explicit conversion
+
+#### characters conversion
+
+```java
+
+char ch = 'a';
+int b =  ch;
+System.out.print(b);
+
+o\p-> 97
+
+```
 
 
   
