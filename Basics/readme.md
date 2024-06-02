@@ -187,3 +187,19 @@ byte b = 5;
 byte  a = (byte)(b*2); // there is no error..
 
 ````
+
+## JRE 
+Java Runtime Enviroment 
+```diff
+- Source code .java  --> Compiler --> byte code .class --> java Virtual Machine (JVM) -->Native  code
+```
+JDK have many development tools..
+
+JVM module == vartual machine + libarary tools 
+
+native Code := every OS have different native code thats why JAVA is portable language 
+
+##### how run code
+  >compilation  [ Source code --> Byte Code ]<br>
+  >execution [ Byte code --> Native code ]
+   
