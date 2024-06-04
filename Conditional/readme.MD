@@ -63,3 +63,19 @@ int larger= (5>3)?5:3;
 String type=(5%2==0)?"even":"odd";
 ```
 
+## Switch Statements 
+````java
+
+switch(variable){
+
+case 1: break;
+
+case 2: break;
+
+case 3:break;
+
+default:
+
+}
+
+````
