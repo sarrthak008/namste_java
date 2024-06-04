@@ -63,3 +63,23 @@ T   |   F     |   T     |
 F   |   F     |   F     |
 
 ```
+
+```
+NOT Operator
+ 
+ans | state 
+-------------
+T   |  F
+F   |  T
+
+```
+
+
+### 4] Assignment Operators
+    =     a = 10
+    +=    a=a+10  a+=10
+    -=    a=a-10  a-=10
+    *=    a=a*10  a*=10
+    /=    a=a/10  a/=10
+
+This is useful in competative coding and This operators little bit faster . 
