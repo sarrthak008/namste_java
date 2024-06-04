@@ -79,3 +79,5 @@ default:
 }
 
 ````
+ 
+ ### [calculator using switch](./calculator.java)
