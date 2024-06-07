@@ -77,11 +77,11 @@ loops contains another loop inside of loop..
 ```java
      for(int i=0;i<10;i++){
       
-        for(int j=0;j<n;j++){
+        for(int j=0;j<i;j++){
 
         }
      }
 ```
 
-[see here all star pattern codes](./starPatters/)
+[see here all star pattern codes](./patterns)
 
