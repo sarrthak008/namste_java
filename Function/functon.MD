@@ -73,7 +73,7 @@ Sum(10,20); // arguments or actual parameters
  |   |
  -----
  ```
- call stack trank which function call ,which function in stack
+ call stack track which function call ,which function in stack
  when function call memory reserve in stack
 
  ## call by value
