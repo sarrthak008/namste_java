@@ -123,8 +123,9 @@ depends on number of PARAMETERS OR TYPE OF PARAMETERS
    public static float Sum(float A,float B){
       return(A+B);
      }
-
+     
    ```
+   [code for find 2 to n all primes](./ranePrime.java)
 
 
  
