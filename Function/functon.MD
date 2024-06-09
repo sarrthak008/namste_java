@@ -80,4 +80,12 @@ Sum(10,20); // arguments or actual parameters
   [see here](./swap.java)
 
 
+### method or functions have two type
+> user define <br>
+> pre define (inbuild methods)
+
+### Function overloading 
+Multiple  Functions with the Same name but different parameters 
+
+
  
