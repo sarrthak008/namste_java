@@ -85,7 +85,46 @@ Sum(10,20); // arguments or actual parameters
 > pre define (inbuild methods)
 
 ### Function overloading 
-Multiple  Functions with the Same name but different parameters 
+Multiple  Functions with the Same name but different parameters
+
+#### Function Overloading with number of parameters 
+  ```java
+   // sum of two numbers..
+
+   public static int Sum(int A,int B){
+    return (A+B);
+   }
+
+  //sum of three numbers...
+
+   public static int Sum(int A,int B,int C){
+    return (A+B+C);
+   }
+ 
+ // these is totally valid functions
+
+
+/*if return type different  java give error ..  functon overloading not depends on return type it 
+
+depends on number of PARAMETERS OR TYPE OF PARAMETERS
+*/
+  ```
+
+  
+#### Function Overloading with type of parameters 
+  ```java
+    // sum of int type of parameters
+     public static int Sum(int A,int B){
+      return(A+B);
+     }
+ 
+   // calculate float sum
+
+   public static float Sum(float A,float B){
+      return(A+B);
+     }
+
+   ```
 
 
  
