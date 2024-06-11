@@ -67,7 +67,7 @@ Sum(10,20); // arguments or actual parameters
  |   |
  -----
  |   |
- -----   <====| stack 
+ -----   <====| call stack 
  |   |
  ----- 
  |   |
@@ -128,4 +128,63 @@ depends on number of PARAMETERS OR TYPE OF PARAMETERS
    [code for find 2 to n all primes](./ranePrime.java)
 
 
+### BINARY TO DECIMAL
+
+```
+ ==================================================
+   
+ LOGIC TO CONVERT BINARY TO DECIMAL
+
+  IF BINARY NUMBER N = 101
+  WE WANT CONVERT THIS NUMBER INTO DECIMAL
+
+     1     0      1
+     |     |      |
+     *  +  *   +  *
+  2POW2   2POW1   2POW0
+
+
+2POW0 = 1
+2POW1 = 2
+2POW2 = 4
+
+1*1 + 2*0 + 4*1 = 1+0+4=5
+
+BINARY 101 CONVERT 5 INTO DECIMAL.
+
+```
+[code for binary to decimal](./binaryToDecimal.java)
+
+```java
+ ==================================================
+   
+ LOGIC TO CONVERT DECIMAL TO BINARY
+
+ consider given decimal number is 7
+
+   2 |   7         =>1   
+ ____|___________        ↑
+   2 |   3         =>1   |
+ ____|___________        |
+   2 |   1         =>1   |
+_____|____________       |
+     |  0
+     |
+ 
+ HERE GIVEN DEICIMAL NUMBER IS 7. 
+ WHEN WE CONVERT DECIMAL TO BINARY WE DEVIDE GIVEN NUMBER BY 2 .
+  1] WE DEVIDE 7 BY 2 AND  QUOTIENT 3 AND  REMIDER WILL BE 1
+  2] NOW WE DEVIDE QUOTIENT BY 2 THAT IS 3 DEVIDED BY 2 AND
+  AGAIN REMINDER WILL BE 1
+  3]WE DEVIDED UNTIL QUOTIENT NOT MAKE ZERO
+  4] NOW WE WRTE REMIDERS DOWN TO UP THAT IS `111`
+  5] AND 7 WILL BE MAKE IN BINARY  `111`
+  
+
+```
+[CODE FOR DECIMAL TO BINARY](./decimalToBinary.java)
+
+## scope
+
+1] method scope :  when we define veriable in function we access only under the function
  
