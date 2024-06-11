@@ -187,4 +187,15 @@ _____|____________       |
 ## scope
 
 1] method scope :  when we define veriable in function we access only under the function
+
+3] block Space : {} <- access only in these block
+ ```java
+   {
+    int s =14;
+   }
+   System.out.print(s);
+
+  // TAHT CODE GIVE ERROR...
+ ```
+ 3]class scope [learn in oops]
  
