@@ -1,4 +1,4 @@
-package stars;
+
 
 /* 1} think how many lines you want thats time outer loop runs
    2} number of times print char, star,num that number of time run inner loop

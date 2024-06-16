@@ -9,11 +9,12 @@ public class prime {
 
 
         if (num==2) {
-            isPrime=true;
+            isPrime=true; 
         }else{
             for(int i=2;i<num-1;i++){
                 if(num%i==0){
-                    isPrime=false;
+                    isPrime=false; 
+                    break;
                 }
             }
         }
@@ -27,7 +28,7 @@ public class prime {
     }
 }
 
-/*  use (int i=2;i<math.floor(n);i++)
+/*  use (int i=2;i<Math.sqrt(n);i++)
      math.floor give root of n this use to better efficiency 
      and fast work for the code 
 */
