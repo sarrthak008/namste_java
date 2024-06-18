@@ -54,3 +54,41 @@ String fruits[]={"apple","mango","orange"};
  ```
 
  [see array basic  code](./inp.java)
+
+```java
+System.out.print(mark.length)
+
+//give array lenght....
+```
+
+### how  pass array as an argument..
+
+array is passing by refrence means if array change in function its also change in original array
+
+
+```java
+
+ public static void Updatemarks(int marks[]){
+       
+       for(i=0;i<marks.length,i++){
+         marks[i]= marks[i]+1;
+       }
+
+ }
+  
+   public static void main(String args[]){
+      int marks[]={90,95,76};
+
+      Updatemarks(marks);
+
+     // after adding 1 in 
+
+            for(i=0;i<marks.length,i++){
+                System.out.println(marks[1]);
+            }
+
+   }
+
+
+```
+
