@@ -91,4 +91,4 @@ array is passing by refrence means if array change in function its also change i
 
 
 ```
-
+[linear Search](../Linear-Search/)
